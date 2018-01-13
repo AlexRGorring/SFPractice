@@ -1,0 +1,10 @@
+.THIS {
+  position:absolute;
+  height: 100%;
+  wdith: 100%;
+  background:  #FFFFFF;
+}
+
+.THIS>div {
+  height: 50%;
+}
