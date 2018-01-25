@@ -1,0 +1,8 @@
+<aura:component >
+    <aura:attribute name="pieceType" type="String" default="utility:setup"/>
+    <aura:attribute name="name" type="String" />
+    <aura:attribute name="index" type="Number"/>
+    <aura:attribute name="possibleMoves" type="Number[]"/>
+    
+    <lightning:buttonIcon iconName="{!v.pieceType}" size="xx-large" alternativeText="nah" class="bigIcon"/>	
+</aura:component>
