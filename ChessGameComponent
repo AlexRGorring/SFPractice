@@ -1,0 +1,96 @@
+<aura:component >
+    <aura:attribute name="squares" type="List" />
+    
+    <div class="slds-grid slds-grid--vertical slds-gutters">   
+        
+        <div class="slds-col">
+            <c:Piece name="blackrook" pieceType="utility:thunder"/>
+            <c:Piece name="blackbishop" pieceType="utility:trail"/>
+            <c:Piece name="blackknight" pieceType="utility:shield"/>
+            <c:Piece name="blackrook" pieceType="utility:fallback"/>
+            <c:Piece name="blackbishop" pieceType="utility:salesforce1"/>
+            <c:Piece name="blackknight" pieceType="utility:shield"/>
+            <c:Piece name="blackrook" pieceType="utility:trail"/>
+            <c:Piece name="blackbishop" pieceType="utility:thunder"/>
+        </div>
+        
+        <div class="slds-col">
+            <c:Piece name="blackpawn" pieceType="utility:down"/>
+            <c:Piece name="blackpawn" pieceType="utility:down"/>
+            <c:Piece name="blackpawn" pieceType="utility:down"/>
+            <c:Piece name="blackpawn" pieceType="utility:down"/>
+            <c:Piece name="blackpawn" pieceType="utility:down"/>
+            <c:Piece name="blackpawn" pieceType="utility:down"/>
+            <c:Piece name="blackpawn" pieceType="utility:down"/>
+            <c:Piece name="blackpawn" pieceType="utility:down"/>
+        </div> 
+        
+        <div class="slds-col">
+            <c:Piece name="empty" pieceType="utility:survey"/>
+            <c:Piece name="empty" pieceType="utility:survey"/>
+            <c:Piece name="empty" pieceType="utility:survey"/>
+            <c:Piece name="empty" pieceType="utility:survey"/>
+            <c:Piece name="empty" pieceType="utility:survey"/>
+            <c:Piece name="empty" pieceType="utility:survey"/>
+            <c:Piece name="empty" pieceType="utility:survey"/>
+            <c:Piece name="empty" pieceType="utility:survey"/>
+        </div>
+        
+        <div class="slds-col">
+            <c:Piece name="empty" pieceType="utility:survey"/>
+            <c:Piece name="empty" pieceType="utility:survey"/>
+            <c:Piece name="empty" pieceType="utility:survey"/>
+            <c:Piece name="empty" pieceType="utility:survey"/>
+            <c:Piece name="empty" pieceType="utility:survey"/>
+            <c:Piece name="empty" pieceType="utility:survey"/>
+            <c:Piece name="empty" pieceType="utility:survey"/>
+            <c:Piece name="empty" pieceType="utility:survey"/>
+        </div>
+        
+        <div class="slds-col">
+            <c:Piece name="empty" pieceType="utility:survey"/>
+            <c:Piece name="empty" pieceType="utility:survey"/>
+            <c:Piece name="empty" pieceType="utility:survey"/>
+            <c:Piece name="empty" pieceType="utility:survey"/>
+            <c:Piece name="empty" pieceType="utility:survey"/>
+            <c:Piece name="empty" pieceType="utility:survey"/>
+            <c:Piece name="empty" pieceType="utility:survey"/>
+            <c:Piece name="empty" pieceType="utility:survey"/>
+        </div>
+        
+        <div class="slds-col">
+            <c:Piece name="empty" pieceType="utility:survey"/>
+            <c:Piece name="empty" pieceType="utility:survey"/>
+            <c:Piece name="empty" pieceType="utility:survey"/>
+            <c:Piece name="empty" pieceType="utility:survey"/>
+            <c:Piece name="empty" pieceType="utility:survey"/>
+            <c:Piece name="empty" pieceType="utility:survey"/>
+            <c:Piece name="empty" pieceType="utility:survey"/>
+            <c:Piece name="empty" pieceType="utility:survey"/>
+        </div>
+        
+        
+        <div class="slds-col">
+            <c:Piece name="whitepawn" pieceType="utility:setup"/>
+            <c:Piece name="whitepawn" pieceType="utility:setup"/>
+            <c:Piece name="whitepawn" pieceType="utility:setup"/>
+            <c:Piece name="whitepawn" pieceType="utility:setup"/>
+            <c:Piece name="whitepawn" pieceType="utility:setup"/>
+            <c:Piece name="whitepawn" pieceType="utility:setup"/>
+            <c:Piece name="whitepawn" pieceType="utility:setup"/>
+            <c:Piece name="whitepawn" pieceType="utility:setup"/>
+        </div>
+        
+        <div class="slds-col">
+            <c:Piece name="whiterook" pieceType="utility:save"/>
+            <c:Piece name="whitebishop" pieceType="utility:merge"/>
+            <c:Piece name="whiteknight" pieceType="utility:unmuted"/>
+            <c:Piece name="whiteking" pieceType="utility:user"/>
+            <c:Piece name="whitequeen" pieceType="utility:frozen"/>
+            <c:Piece name="whiteknight" pieceType="utility:unmuted"/>
+            <c:Piece name="whitebishop" pieceType="utility:merge"/>
+            <c:Piece name="whiterook" pieceType="utility:save"/>
+        </div>
+
+    </div> 
+</aura:component>
